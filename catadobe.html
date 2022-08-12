@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .logo {
+            margin-top: 15px;
+            color: black;
+            font-size: 30px;
+        }
+        
+        .nav-bar {
+            width: 100%;
+            background: rgb(177, 103, 103);
+            padding: 1px;
+            font-family: sans-serif;
+            border-radius: 8px;
+        }
+        
+        .menu-right {
+            text-align: right;
+            padding-bottom: 0px 3px;
+        }
+        
+        ul li {
+            display: inline-block;
+            font-size: 20px;
+            margin: 5px;
+            list-style: none;
+        }
+        
+        ul li a {
+            padding: 5 5;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        ul li a:hover {
+            background: plum;
+            color: red;
+        }
+        
+        .life {
+            margin: 0px;
+            text-align: center;
+        }
+        
+        .life button {
+            border-radius: 5px;
+        }
+        
+        .container {
+            height: auto;
+            position: relative;
+        }
+        
+        .container img {
+            width: 100%;
+            display: block;
+        }
+        
+        .life {
+            position: absolute;
+            top: 70%;
+            left: 30%;
+            font-size: 20px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/7b39b10219.js"></script>
+    <title>Nav bar is used</title>
+
+    <body>
+        <header>
+            <div class="nav-bar">
+                <div class="logo">
+                    <i class="fa-solid fa-cat"></i> CAT
+                </div>
+                <div class="menu-right">
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Why cat?</a></li>
+                        <li><a href="#">Diet</a></li>
+                        <li>
+                            <button style="color: blue; background
+                    :pink; border: radius 5px;">Adopt Meow</button> </a>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+        <div class="container"></div>
+        <img src="cat1.jpg" alt="">
+        <div class="life">
+            <h1>Cats Makes Life Better </h1>
+            <h6>The key to a happy life is having a cat</h6>
+            <button style="color: rgb(241, 241, 246); background
+            :rgb(18, 2, 238);">Adopt Meow</button>
+        </div>
+    </body>
+</head>
+
+</html>

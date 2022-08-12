@@ -1,0 +1,272 @@
+                              * {
+                                  margin: 0;
+                                  padding: 0;
+                              }
+                              
+                              .nav .it {
+                                  color: rgb(209, 147, 147);
+                              }
+                              
+                              .nav {
+                                  height: 45px;
+                                  color: rgb(159, 71, 71);
+                                  backgr: rgb(123, 164, 151);
+                                  background: linear-gradient(rgb(83, 193, 236), rgb(203, 160, 160));
+                                  font-family: sans-serif;
+                                  padding: 10px;
+                              }
+                              
+                              .nav .icon {
+                                  height: 40px;
+                                  float: left;
+                                  margin-right: 20px;
+                                  font-size: 40px;
+                              }
+                              
+                              
+                              
+                              .menu ul li {
+                                  display: inline-block;
+                                  margin: 10px;
+                                  font-size: 20px;
+                              }
+                              
+                              ul li a {
+                                  text-decoration: none;
+                                  background-color: rgb(111, 59, 167);
+                                  color: rgb(250, 249, 252);
+                                  text-align: center;
+                                  border-radius: 5px;
+                              }
+                              
+                              .nav ul li a:hover {
+                                  border-radius: 5px;
+                                  color: blue;
+                                  background: green;
+                                  box-shadow: 0 0 25px rgb(82, 8, 8);
+                              }
+                              
+                              span {
+                                  margin: 0 20px;
+                                  font-size: 30px;
+                                  cursor: pointer;
+                                  display: none;
+                              }
+                              
+                              section {
+                                  position: relative;
+                                  width: 100%;
+                                  height: 100vh;
+                                  background: url(bg.jpg);
+                                  background-size: cover;
+                                  background-attachment: fixed;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                  clip-path: polygon(0 0, 100% 0, 100% 75%, 89% 91%, 72% 100%, 30% 100%, 10% 91%, 0 75%);
+                                  /*This part is use to make curve*/
+                              }
+                              
+                              .btn button {
+                                  background-color: rgb(225, 223, 226);
+                                  border-radius: 10px;
+                                  text-decoration: none;
+                                  font-size: 15px;
+                                  margin: 5px;
+                              }
+                              
+                              .btn button a {
+                                  color: red;
+                                  text-decoration: none;
+                                  justify-content: center;
+                              }
+                              
+                              .circular {
+                                  max-width: 500px;
+                                  text-align: left;
+                              }
+                              
+                              .circular h3 {
+                                  font-size: 5em;
+                                  color: rgb(211, 140, 140);
+                                  font: 700;
+                              }
+                              
+                              .circular {
+                                  cursor: pointer;
+                                  overflow: hidden;
+                                  height: 300px;
+                                  width: 300px;
+                                  border-radius: 0% 20% 40% 50%;
+                              }
+                              
+                              body {
+                                  background: linear-gradient(rgb(86, 54, 129), rgb(71, 44, 66));
+                              }
+                              
+                              .img img {
+                                  height: 500px;
+                                  transition: all 2s linear;
+                              }
+                              
+                              .img img:hover {
+                                  transform: scale(1.3);
+                              }
+                              
+                              @media only screen and (max-width: 600px) {
+                                  span {
+                                      display: block;
+                                  }
+                                  .menu ul li {
+                                      display: block;
+                                  }
+                              }
+                              
+                              aside {
+                                  min-height: 300px;
+                                  width: 300px;
+                                  float: right;
+                                  margin: 5px;
+                                  background: rgb(213, 203, 205);
+                                  text-align: center;
+                                  font-size: 20px;
+                                  border-radius: 10px;
+                                  position: relative;
+                                  overflow: hidden;
+                              }
+                              
+                              aside ul {
+                                  list-style: none;
+                                  padding: 2px;
+                                  position: absolute;
+                                  bottom: 2px;
+                                  animation: anim 8s linear infinite;
+                              }
+                              
+                              aside ul:hover {
+                                  animation-play-state: paused;
+                              }
+                              
+                              @keyframes anim {
+                                  form {
+                                      bottom: -100%
+                                  }
+                                  to {
+                                      bottom: 100%
+                                  }
+                              }
+                              
+                              aside ul li {
+                                  padding: 1px;
+                                  border-bottom: 2px solid rgb(215, 124, 124);
+                              }
+                              
+                              aside ul li a {
+                                  background-color: transparent;
+                                  color: rgb(6, 41, 99);
+                              }
+                              
+                              .detail h3 {
+                                  display: flex;
+                                  color: rgb(14, 14, 233);
+                                  background-size: 5px;
+                                  margin: 10px;
+                                  width: 100px;
+                                  border-radius: 10px;
+                                  padding: 10px;
+                                  background-color: rgb(51, 94, 151);
+                              }
+                              
+                              .main {
+                                  margin: 5px;
+                                  background-image: url(site.png);
+                                  min-height: 550px;
+                                  width: 60%;
+                                  float: left;
+                                  border: 1px solid black;
+                              }
+                              
+                              .main h1 {
+                                  margin-top: 180px;
+                                  color: rgb(53, 6, 42);
+                                  align-items: center;
+                                  text-align: center;
+                                  justify-content: center;
+                              }
+                              
+                              .main h3 {
+                                  color: rgb(1, 27, 27);
+                                  text-align: center;
+                              }
+                              
+                              .main button {
+                                  background-color: blue;
+                                  border-radius: 10px;
+                                  height: 30px;
+                                  width: 10px;
+                              }
+                              
+                              .main button a {
+                                  text-decoration: none;
+                                  color: white;
+                              }
+                              
+                              .main button a:hover {
+                                  border-radius: 5px;
+                                  color: rgb(255, 4, 100);
+                                  background: rgb(63, 70, 63);
+                                  box-shadow: 0 0 25px rgb(234, 234, 234);
+                              }
+                              
+                              .footer {
+                                  height: auto;
+                                  text-align: center;
+                                  background: rgb(42, 38, 46);
+                              }
+                              
+                              .social-link a {
+                                  font-size: 25px;
+                                  color: forestgreen;
+                                  margin: 20px;
+                                  margin-bottom: 5px;
+                              }
+                              
+                              .social-link a:hover {
+                                  color: rebeccapurple;
+                                  background-color: blue;
+                                  box-shadow: 0 0 25px rgb(234, 234, 234);
+                              }
+                              
+                              .footer h3 {
+                                  cursor: pointer;
+                                  color: aliceblue;
+                              }
+                              
+                              .footer h2 {
+                                  margin: 5px;
+                                  padding: 6px;
+                                  cursor: pointer;
+                              }
+                              
+                              .side {
+                                  margin-right: 15px;
+                                  display: flex;
+                                  justify-content: space-between;
+                              }
+                              
+                              .sect ul {
+                                  color: rgb(114, 193, 108);
+                              }
+                              
+                              .sect ul a {
+                                  text-decoration: none;
+                                  color: green;
+                              }
+                              
+                              .sect ul a:HOVER {
+                                  color: pink;
+                              }
+                              
+                              .sect ul:HOVER {
+                                  color: pink;
+                              }
